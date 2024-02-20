@@ -1,0 +1,99 @@
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.0em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+
+    
+}
+
+.pimg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+
+}
+
+.pimg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textbg{
+    /* background:  #313534; */
+    color: #fff;
+    padding: 20px;
+}
+.pimg1 .ptext .textbg{
+    background: #313534;
+}
+.pimg2 .textbg{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pimg3 .textbg{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Section{
+    padding: 50px 80px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+  }
+
+  .section-dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
+
+/* .pimg1 span{
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    
+}
+
+.pimg1 .ptext1{
+    text-align: center;
+    margin-top: ;
+}
+.pimg2, .pimg3 span{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+} */
